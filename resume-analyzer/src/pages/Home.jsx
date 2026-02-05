@@ -229,7 +229,7 @@ export default function Home() {
             {backendStatus === 'connected' && (
               <div className="mb-4 p-3 bg-green-500/20 border border-green-500/50 rounded-lg">
                 <p className="text-green-300 text-sm font-semibold">
-                  ✓ Connected to ML backend - Ready to analyze
+                  ✓ Connected to backend - Ready to analyze
                 </p>
               </div>
             )}
@@ -335,4 +335,5 @@ export default function Home() {
     </div>
   )
 }
+
 
