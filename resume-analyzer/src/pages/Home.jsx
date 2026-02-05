@@ -209,14 +209,15 @@ export default function Home() {
                   ⚠️ Backend server not connected
                 </p>
                 <p className="text-red-200 text-xs mt-1">
-                  Please start the ML backend server:
+                  {/* Please start the ML backend server: */}
+                  Please wait for a minute and refresh the page.
                 </p>
-                <ol className="text-red-200 text-xs mt-2 ml-4 list-decimal space-y-1">
+                {/* <ol className="text-red-200 text-xs mt-2 ml-4 list-decimal space-y-1">
                   <li>Open a terminal/command prompt</li>
                   <li>Navigate to: <code className="bg-black/30 px-1 rounded">ML_model/Dummy/backend</code></li>
                   <li>Run: <code className="bg-black/30 px-1 rounded">python app.py</code></li>
                   <li>Wait for: <code className="bg-black/30 px-1 rounded">Running on http://0.0.0.0:5000</code></li>
-                </ol>
+                </ol> */}
                 <button
                   onClick={checkBackendConnection}
                   className="mt-3 px-3 py-1 text-xs bg-red-600/50 hover:bg-red-600/70 rounded text-red-100"
@@ -334,3 +335,4 @@ export default function Home() {
     </div>
   )
 }
+
